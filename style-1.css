@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  padding: 25px;
+  width: 420px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #1e3c72;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #1e3c72;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #16325c;
+}
+
+.reset {
+  background-color: #d9534f;
+}
+
+.reset:hover {
+  background-color: #c9302c;
+}
+
+#daftar, #hasil {
+  margin-top: 15px;
+  background-color: #eef3ff;
+  padding: 10px;
+  border-radius: 8px;
+  color: #1e3c72;
+  font-size: 14px;
+}
