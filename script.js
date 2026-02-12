@@ -66,4 +66,5 @@ function resetData() {
   document.getElementById("daftar").innerHTML = "";
   document.getElementById("hasil").innerHTML = "";
   document.getElementById("uang").value = "";
+
 }
